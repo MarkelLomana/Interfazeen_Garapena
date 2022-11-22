@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rrJL4DBqBKA1pyD6YJCW091rc/o4l2UpurLRJqFqB6przuh6JryG8N17qDJ6AKzAZ2hacDJgy5LNJBmB9Rcng==",
+  "dgSpecHash": "vTLvBCVH0ifnL3Q2dKN+6eOZy48G9pjdDqt/OhpKYDLEeTdQHoqcAE0zR/M4fzMjPoBTop21SqBYAgiLmSoekQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lomana.markel\\Documents\\DAM2\\Interfazeen_Garapena\\WEB_Forms\\Adibidea\\Adibidea\\Adibidea.csproj",
+  "projectFilePath": "C:\\Users\\lomana.markel\\Documents\\GITHUB\\Zerbitzu_eta_Prozesuen_Programazioa\\Adibidea_ASP.NET\\Adibidea\\Adibidea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lomana.markel\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\lomana.markel\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
