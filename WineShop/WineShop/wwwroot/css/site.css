@@ -31,10 +31,10 @@ body {
     position: static;
 }
 
-    .full-width.dropdown > .dropdown-menu {
-        left: 0;
-    }
+.full-width.dropdown > .dropdown-menu {
+left: 0;
+}
 
-        .full-width.dropdown > .dropdown-menu > li > a {
-            white-space: normal;
-        }
+.full-width.dropdown > .dropdown-menu > li > a {
+    white-space: normal;
+}
