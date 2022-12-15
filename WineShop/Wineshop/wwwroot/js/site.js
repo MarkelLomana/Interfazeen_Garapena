@@ -36,7 +36,7 @@ $(document).ready(function () {
                 function (data) {
                     // Successful requests get here
                     // Update the page elements
-                    $("#item-count-" - recordToAdd).text(data.kantitatea.toString());
+                    $("#item-count-" + recordToAdd).text(data.kantitatea.toString());
                     $("#cart-total").text((data.guztira + data.salneurria).toString());
                     $("#update-message").text(data.mezua);
                 });

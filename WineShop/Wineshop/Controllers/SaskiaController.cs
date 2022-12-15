@@ -61,7 +61,7 @@ namespace Wineshop.Controllers
         public async Task<IActionResult> SaskiaKenduAjax(int id, int kantitatea, float salneurria, float guztira)
         {
             var cart = Saskia.SaskiaLortu(this.HttpContext);
-            //await _saskiaService.SaskiaGehitu(id, cart.SaskiaId);
+            await _saskiaService.SaskiaKendu(id, cart.SaskiaId);
             kantitatea--;
             var results = new
             {
