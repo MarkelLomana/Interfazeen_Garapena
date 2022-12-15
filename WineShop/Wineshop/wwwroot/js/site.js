@@ -32,7 +32,7 @@ $(document).ready(function () {
         var guztira = parseFloat($("#cart-total").text());
         if (recordToAdd !== '') {
             // Perform the ajax post
-            $.post("/Saskia/SaskiaGehituAjax", { "id": recordToAdd, "kantitatea": kantitatea, "salneurria": salneurria, "guztira": guztira },
+            $.post("/Saskia/SaskiaKenduAjax", { "id": recordToAdd, "kantitatea": kantitatea, "salneurria": salneurria, "guztira": guztira },
                 function (data) {
                     // Successful requests get here
                     // Update the page elements
