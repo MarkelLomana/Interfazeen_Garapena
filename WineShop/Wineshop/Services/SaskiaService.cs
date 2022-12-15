@@ -82,6 +82,22 @@ namespace Wineshop.Services
                  response.EnsureSuccessStatusCode();
              }
         }
+        public async Task SaskiaEzabatu(int ardoaId, string saskiaId)
+        {
+            Uri rutasaskiaDelete = new Uri(rutaTodos, saskiaId);
+
+            List<SaskiaAlea> saskiaAleaList = new List<SaskiaAlea>();
+            saskiaAleaList = await SaskiaLortuAleak(saskiaId);
+
+            SaskiaAlea cartitem = new SaskiaAlea();
+            
+            using (var httpClient = new HttpClient())
+            {
+                StringContent content = new StringContent(JsonConvert.SerializeObject(cartitem), Encoding.UTF8, "application/json");
+                var response = await httpClient.DeleteAsync(rutasaskiaDelete);
+                response.EnsureSuccessStatusCode();
+            }
+        }
 
         public async Task<List<SaskiaAlea>> SaskiaLortuAleak(string saskiaId)
         {

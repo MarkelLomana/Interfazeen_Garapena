@@ -6,6 +6,7 @@ namespace Wineshop.Services
     {
         Task SaskiaGehitu(int ardoaId, string saskiaId);
         Task SaskiaKendu(int ardoaId, string saskiaId);
+        Task SaskiaEzabatu(int ardoaId, string saskiaId);
         Task<List<SaskiaAlea>> SaskiaLortuAleak(string saskiaId);
 
         Task EskaeraBezeroaGehitu(BezeroaEskaera bezeroaEskaera);
