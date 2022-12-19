@@ -63,42 +63,21 @@ namespace Wineshop.Services
                 }
             }
         }
-
         public async Task SaskiaKendu(int ardoaId, string saskiaId)
         {
-             Uri rutasaskia = new Uri(rutaTodos, saskiaId);
-
-             List<SaskiaAlea> saskiaAleaList = new List<SaskiaAlea>();
-             saskiaAleaList = await SaskiaLortuAleak(saskiaId);
-
-             SaskiaAlea cartitem = new SaskiaAlea();
-             cartitem = saskiaAleaList.FirstOrDefault(s => s.ArdoaId == ardoaId);
-             
-            cartitem.Kantitatea--;
-             using (var httpClient = new HttpClient())
-                 {
-                 StringContent content = new StringContent(JsonConvert.SerializeObject(cartitem), Encoding.UTF8, "application/json");
-                 var response = await httpClient.PutAsync(rutasaskia, content);
-                 response.EnsureSuccessStatusCode();
-             }
-        }
-        public async Task SaskiaEzabatu(int ardoaId, string saskiaId)
-        {
-            Uri rutasaskiaDelete = new Uri(rutaTodos, saskiaId);
-
+            Uri rutasaskia = new Uri(rutaTodos, saskiaId);
             List<SaskiaAlea> saskiaAleaList = new List<SaskiaAlea>();
             saskiaAleaList = await SaskiaLortuAleak(saskiaId);
-
             SaskiaAlea cartitem = new SaskiaAlea();
-            
+            cartitem = saskiaAleaList.FirstOrDefault(s => s.ArdoaId == ardoaId);
+            cartitem.Kantitatea--;
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(cartitem), Encoding.UTF8, "application/json");
-                var response = await httpClient.DeleteAsync(rutasaskiaDelete);
+                var response = await httpClient.PutAsync(rutasaskia, content);
                 response.EnsureSuccessStatusCode();
             }
         }
-
         public async Task<List<SaskiaAlea>> SaskiaLortuAleak(string saskiaId)
         {
             //Saskia lortu

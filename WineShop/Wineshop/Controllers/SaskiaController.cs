@@ -72,16 +72,6 @@ namespace Wineshop.Controllers
             };
             return Json(results);
         }
-        public async Task<IActionResult> SaskiaEzabatuAjax(int id)
-        {
-            var cart = Saskia.SaskiaLortu(this.HttpContext);
-            await _saskiaService.SaskiaEzabatu(id, cart.SaskiaId);
-            var results = new
-            {
-                mezua = "Zure ardoa ezbatu egin da",
-            };
-            return Json(results);
-        }
 
     }
 }

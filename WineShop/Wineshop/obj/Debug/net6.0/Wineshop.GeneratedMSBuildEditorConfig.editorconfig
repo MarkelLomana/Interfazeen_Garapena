@@ -8,61 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Wineshop
 build_property.RootNamespace = Wineshop
-build_property.ProjectDir = C:\Users\lomana.markel\Documents\GITHUB\Interfazeen_Garapena\WineShop\Wineshop\
+build_property.ProjectDir = C:\Users\lomana.markel\Documents\DAM2\Interfazeen_Garapena\WEB_Forms\WineShop\Wineshop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lomana.markel\Documents\GITHUB\Interfazeen_Garapena\WineShop\Wineshop
+build_property.MSBuildProjectDirectory = C:\Users\lomana.markel\Documents\DAM2\Interfazeen_Garapena\WEB_Forms\WineShop\Wineshop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Home/Index.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Home/Privacy.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Ordaindu/Index.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Ordaindu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkYWluZHVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Ordaindu/Osatu.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Ordaindu/Osatu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkYWluZHVcT3NhdHUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Saskia/Index.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Saskia/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fza2lhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Shared/Components/Ardoak/Default.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/Components/Ardoak/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXJkb2FrXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Shared/Error.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/Components/Karritoa/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcS2Fycml0b2FcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/_ViewImports.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/_ViewStart.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lomana.markel/Documents/GITHUB/Interfazeen_Garapena/WineShop/Wineshop/Views/Shared/_Layout.cshtml]
+[C:/Users/lomana.markel/Documents/DAM2/Interfazeen_Garapena/WEB_Forms/WineShop/Wineshop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bwffp5fgw0

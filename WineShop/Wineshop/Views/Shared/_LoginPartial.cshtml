@@ -6,6 +6,13 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
+        <a class="nav-link" asp-controller="Saskia" asp-action="Index" asp-route-id="@User.Identity?.Name">
+            <i class="fas fa-shopping-cart"></i>
+
+            (@await Component.InvokeAsync("Karritoa", new { id = User.Identity?.Name}))
+        </a>
+    </li>
+    <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li>
     <li class="nav-item">

@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using System.Runtime.InteropServices;
+﻿using Microsoft.AspNetCore.Mvc;
 using Wineshop.Models;
 using Wineshop.Services;
 using Wineshop.ViewModels;
@@ -8,10 +6,8 @@ using WineShop.ViewModels;
 
 namespace Wineshop.Controllers
 {
-    [Authorize]
     public class OrdainduController : Controller
     {
-    
         private readonly ISaskiaService _saskiaService;
         public OrdainduController(ISaskiaService saskiaService)
         {
