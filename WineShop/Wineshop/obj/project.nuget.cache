@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5MXgzCyGu/6wJtDYzJBuxxTqblQYd6xWEU1DK3pesPhLidQ6cdKFakjltrUOCkzCHF/7pIKnZyEGXxyDpoNbpA==",
+  "dgSpecHash": "r8xsbOg3WWc43igUN19M9z5/Xz0BFcT8HlNSemTXPhqrcGEJ9TTGgHdVnwpbMFf5UZL56Ny/3dvbq/afedhlJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lomana.markel\\Documents\\DAM2\\Interfazeen_Garapena\\WEB_Forms\\WineShop\\Wineshop\\Wineshop.csproj",
+  "projectFilePath": "C:\\Users\\lomana.markel\\Documents\\GITHUB\\Interfazeen_Garapena\\WineShop\\Wineshop\\Wineshop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lomana.markel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lomana.markel\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
